@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code, please cite both the paper and the software.
+title: >-
+  Companion code for "Post-selection inference for the Cox model with
+  interval-censored data"
+authors:
+  - family-names: Zhang
+    given-names: Jianrui
+  - family-names: Li
+    given-names: Chenxi
+    email: cli@msu.edu
+  - family-names: Weng
+    given-names: Haolei
+version: 1.0.0
+date-released: "2026-10-05"
+license: GPL-3.0-only
+repository-code: >-
+  https://github.com/OWNER/post-selection-inference-IC-Cox
+abstract: >-
+  Clean R implementation of the post-lasso conditional inference procedure
+  for the Cox proportional hazards model with interval-censored data:
+  selection via the adaptive lasso (ALassoSurvIC), a one-step estimator,
+  truncated-Gaussian selective p-values and confidence intervals, and three
+  consistent estimators of the efficient information matrix (least squares,
+  PRES, sPRES).
+preferred-citation:
+  type: article
+  title: >-
+    Post-selection inference for the Cox model with interval-censored data
+  authors:
+    - family-names: Zhang
+      given-names: Jianrui
+    - family-names: Li
+      given-names: Chenxi
+    - family-names: Weng
+      given-names: Haolei
+  journal: Scandinavian Journal of Statistics
+  volume: 52
+  number: 2
+  pages: 710-735
+  year: 2025
+  doi: 10.1111/sjos.12768
